@@ -1,0 +1,35 @@
+@import url('default.css');
+@import url('hover.css');
+
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+nav {
+    z-index: 2;
+    /* max-width: 1920px; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 50px; 
+
+}
+
+li {
+    color: white;
+    list-style: none;    
+}
+

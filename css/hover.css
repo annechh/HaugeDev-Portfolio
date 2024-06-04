@@ -1,0 +1,11 @@
+li,
+.logo-container {
+    transition: 0.3s ease;
+    cursor: pointer;  
+}
+
+
+li:hover,
+.logo-container:hover {
+    transform: scale(1.1);
+}
