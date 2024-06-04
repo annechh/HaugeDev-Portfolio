@@ -1,0 +1,17 @@
+:root {
+    --purple-dark: #3A0035;
+    --purple-light: #61455E;
+
+    --roboto: "Roboto", sans-serif;
+}
+
+
+body {
+    background-image: url('/Images/IMG_20180529_224216.jpg');
+    margin: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
