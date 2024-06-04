@@ -22,14 +22,18 @@ p,
 li {
     font-size: 20px;
     font-family: var(--roboto);
-    color: white;
 }
 
 .h2-section {
     font-family: var(--satisfy);
-    color: white;
 }
 
+p, 
+li, 
+h1, 
+h2 {
+    color: white;
+}
 
 /* Background image */
 
@@ -46,6 +50,8 @@ li {
 
 .bg-container::after {
     background: rgba(58, 0, 53, 0.5);
+    background: rgba(21, 0, 19, 0.5);
+
     position: absolute;
     content: '';
     top:0;
@@ -74,7 +80,7 @@ li {
     width: 100%;
     top: 380px;
 
-    gap: 250px;
+    gap: 500px;
 }
 
 
