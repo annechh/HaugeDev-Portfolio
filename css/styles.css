@@ -7,8 +7,9 @@
     /* box-sizing: border-box; */
 }
 
-body, h1 {
+body {
     /* margin: 0;   */
+    background: #181818;
 }
 
 h1 {
@@ -23,16 +24,17 @@ h1 {
 
 .p-text, li, h1, .copyright {
     font-family: var(--roboto);
-    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 1); */
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
 }
 
 .h2-section {
     font-family: var(--satisfy);
-    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 1); */
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
 }
 
 p, li, h1, h2 {
     color: rgb(0, 0, 0);
+    color: white;
 }
 
 .margin-b {
@@ -58,7 +60,11 @@ p, li, h1, h2 {
 .bg-container::after {
     /* background: rgba(58, 0, 53, 0.5); */
     /* background: rgba(21, 0, 19, 0.5); */
-    background: rgb(255, 255, 255);
+    /* background: rgba(50, 1, 80, 0.6); */
+    /* background: linear-gradient(to right,#00000011, #000000e7, #000000e7, #00000011); */
+    background: #18181878;
+    background: #1a0d1d78;
+    background: #21072778;
     position: absolute;
     content: '';
     top:0;
@@ -90,6 +96,7 @@ p, li, h1, h2 {
     overflow: auto;
     top: 50%;
     transform: translateY(-50%);
+    
 }
 
 
@@ -129,7 +136,7 @@ p, li, h1, h2 {
     width: 100%;
     object-fit: cover;
     overflow: hidden;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
 }
 
 .intro-text {
