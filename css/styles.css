@@ -32,7 +32,7 @@ h1 {
 }
 
 p, li, h1, h2 {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .margin-b {
@@ -58,7 +58,7 @@ p, li, h1, h2 {
 .bg-container::after {
     /* background: rgba(58, 0, 53, 0.5); */
     /* background: rgba(21, 0, 19, 0.5); */
-    background: rgba(10, 0, 19, 1);
+    background: rgb(255, 255, 255);
     position: absolute;
     content: '';
     top:0;
