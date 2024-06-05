@@ -23,12 +23,12 @@ h1 {
 
 .p-text, li, h1, .copyright {
     font-family: var(--roboto);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 1); */
 }
 
 .h2-section {
     font-family: var(--satisfy);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 1); */
 }
 
 p, li, h1, h2 {
