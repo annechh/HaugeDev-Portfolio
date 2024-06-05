@@ -23,12 +23,12 @@ h1 {
 
 .p-text, li, h1, .copyright {
     font-family: var(--roboto);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
 }
 
 .h2-section {
     font-family: var(--satisfy);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
 }
 
 p, li, h1, h2 {
@@ -58,7 +58,7 @@ p, li, h1, h2 {
 .bg-container::after {
     /* background: rgba(58, 0, 53, 0.5); */
     background: rgba(21, 0, 19, 0.5);
-
+    /* background: rgba(10, 0, 19, 0.8); */
     position: absolute;
     content: '';
     top:0;
@@ -117,7 +117,6 @@ p, li, h1, h2 {
 }
 
 .logo-icon {
-    box-shadow: rgba(58, 0, 53, 0.5);
     z-index: 2;
     position: relative;
     height: 50px;
@@ -130,7 +129,7 @@ p, li, h1, h2 {
     width: 100%;
     object-fit: cover;
     overflow: hidden;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
 }
 
 .intro-text {
