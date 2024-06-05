@@ -7,9 +7,8 @@
     /* box-sizing: border-box; */
 }
 
-body,
-h1 {
-    margin: 0;  
+body, h1 {
+    /* margin: 0;   */
 }
 
 h1 {
@@ -18,21 +17,29 @@ h1 {
     font-size: 50px;
 }
 
-p,
-li {
+.p-text, li {
     font-size: 20px;
+}
+
+.p-text, li, h1, .copyright {
     font-family: var(--roboto);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .h2-section {
     font-family: var(--satisfy);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-p, 
-li, 
-h1, 
-h2 {
+p, li, h1, h2 {
     color: white;
+}
+
+.margin-b {
+    margin-bottom: 100px;
+}
+.margin-t {
+    margin-top: 100px;
 }
 
 /* Background image */
@@ -49,7 +56,7 @@ h2 {
 }
 
 .bg-container::after {
-    background: rgba(58, 0, 53, 0.5);
+    /* background: rgba(58, 0, 53, 0.5); */
     background: rgba(21, 0, 19, 0.5);
 
     position: absolute;
@@ -78,14 +85,16 @@ h2 {
     align-items: center;
     position: absolute;
     width: 100%;
-    top: 380px;
-
     gap: 500px;
+    height: 70%;
+    overflow: auto;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
 
-.introduction {
+.section {
     max-width: 1000px;
     width: 100%;
     display: flex;
@@ -121,6 +130,7 @@ h2 {
     width: 100%;
     object-fit: cover;
     overflow: hidden;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .intro-text {
@@ -128,4 +138,21 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+
+footer {
+    height: 50px;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.20);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.copyright {
+    font-size: 14px;
 }
