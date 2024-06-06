@@ -4,4 +4,39 @@
 
     --roboto: "Roboto", sans-serif;
     --satisfy:"Satisfy", cursive;
+
+    --header-height: 100px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+/* Padding */
+.padding {
+    padding: 25px;
+}
+
+.px {
+    padding: 0 25px;
+}
+
+.py {
+    padding: 25px 0;
+}
+
+.pl {
+    padding-left: 25px;
+}
+
+.pr {
+    padding-right: 25px;
+}
+
+.pt {
+    padding-top: 25px;
+}
+
+.pb {
+    padding-bottom: 25px;
 }

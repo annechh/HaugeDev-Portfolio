@@ -1,6 +1,7 @@
 @import url('nav.css');
 @import url('default.css');
 @import url('scrollbar.css');
+@import url('cards.css');
 
 * {
     margin: 0;
@@ -9,8 +10,6 @@
 body {
     background: #181818;
 }
-
-
 
 
 li,
@@ -24,6 +23,7 @@ li,
 .copyright {
     font-family: var(--roboto);
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+    color: white;
 }
 
 p, 
@@ -40,6 +40,7 @@ h2 {
     flex-direction: row;
     align-items: end;
     align-items: center;
+    text-align: center;
     font-size: 50px;
 
     gap: 25px;
@@ -104,16 +105,15 @@ a {
 .section {
     max-width: 1000px;
     width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    padding: 25px;
+    justify-content: center;
 }
 
 .section-headline-image {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 25px;
     border-bottom: 1px solid white;
 }
 
@@ -141,57 +141,6 @@ a {
 }
 
 
-/* Project section */
-
-.project-section {
-    max-width: 1920px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.headline-projects {
-    font-family: var(--roboto);
-}
-
-.project-card-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1vw;
-}
-
-.project-card {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    max-width: 550px;
-    padding: 25px;
-    background: rgb(58, 0, 53, 0.1);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.project-image img {
-    max-width: 550px;
-}
-
-.project-text {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.h3-card {
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.p-card-text {
-    font-size: 20px;
-}
-
-
-/* End project section */
 
 
 .icons-wrapper {
@@ -215,7 +164,6 @@ a {
 
 .icon-text {
     font-size: 16px;
-    font-weight: 700;
     font-family: var(--roboto);
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
     width: 100%;
@@ -251,4 +199,87 @@ footer {
 
 .copyright {
     font-size: 14px;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1091px) { 
+    .portrait { 
+        max-height: 125px;
+        max-width: 125px;
+    }
+
+    .h1-h2{
+        font-size: 35px;
+    }
+    li,
+    .p-text {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 768px) { 
+    .hide {
+        display: block;
+    }
+    
+    .h1-h2{
+        font-size: 20px;
+    }
+
+    .section-headline-image {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+    
+
+    li,
+    .p-text {
+        font-size: 16px;
+    }
+
+    .logo-icon {
+        height: 25px;
+    }
+
+    .padding {
+        padding: 20px;
+    }
+    
+    .px {
+        padding: 0 20px;
+    }
+    
+    .py {
+        padding: 20px 0;
+    }
+    
+    .pl {
+        padding-left: 20px;
+    }
+    
+    .pr {
+        padding-right: 20px;
+    }
+    
+    .pt {
+        padding-top: 20px;
+    }
+    
+    .pb {
+        padding-bottom: 20px;
+    }
+
+    :root {
+        --header-height: 50px;
+    }
 }

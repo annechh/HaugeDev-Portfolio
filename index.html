@@ -23,7 +23,7 @@
     <div class="bg-container">
         <img class="bg-image" src="images/IMG_20180529_224216-kopi.jpg" alt="Mountain view">
     </div>
-    <header>
+    <header class="header-height-scroll">
         <nav>
             <div class="logo-container">
                 <img src="images/Logo-white.svg" alt="Hauge dev logo, crafting digital dreams">
@@ -37,12 +37,14 @@
     </header>
 
     <main class="scroll">
-        <div class="section margin-t" id="backTop">
-            <div class="section-headline-image">
-                <h1 class="h1-h2"><img class="logo-icon" src="images/LogoShadow.svg" alt="hauge dev logo icon">Front-End Developer</h1>
-                <img class="portrait" src="images/portrait-summer.jpg" alt="portrait of Anne smiling">
+        <div class="section" id="backTop">
+            <div class="px ">
+                <div class="section-headline-image px pb">
+                    <h1 class="h1-h2"><img class="logo-icon" src="images/LogoShadow.svg" alt="hauge dev logo icon">Front-End Developer<img class="logo-icon hide" src="images/LogoShadow.svg" alt="hauge dev logo icon"></h1>
+                    <img class="portrait" src="images/portrait-summer.jpg" alt="portrait of Anne smiling">
+                </div>
             </div>
-            <div class="section-text">
+            <div class="section-text padding">
                 <p class="p-text">Hi there! My name is Anne.</p>
                 <p class="p-text"> I am currently studying online at 
                     Noroff School of technology and digital media to become a Front-End Developer. My zen 
@@ -53,24 +55,24 @@
         
         <div class="project-section" id="projects">
             <div class="headline-projects">
-                <h2 class="h1-h2"><img class="logo-icon" src="images/LogoShadow.svg" alt="hauge dev logo icon">Projects</h2>
+                <h2 class="h1-h2 justify-center"><img class="logo-icon" src="images/LogoShadow.svg" alt="hauge dev logo icon">Projects<img class="logo-icon" src="images/LogoShadow.svg" alt="hauge dev logo icon"></h2>
             </div>
             <div class="project-card-wrapper">
                 <div class="project-card">
-                    <div class="project-image">
+                    <div class="project-image px pt">
                         <img src="images/SA.png" alt="White dog sitting in green grass on the mountain with a fjord in the background">
                     </div>
-                    <div class="project-text">
-                        <h2 class="h3-card">Shira's Adventure</h2>
+                    <div class="project-text px pb">
+                        <h2 class="h2-card">Shira's Adventure</h2>
                         <p class="p-card-text">To put into practice the skills you have learned over the FED1 program. 
                             You will demonstrate your ability to interpret a brief, plan your solution, design a user 
                             interface, build and test a responsive web application. You will be required to use all of 
                             the skills that you have learned this year including design, HTML, CSS and JavaScript.</p>
-                        <p class="p-card-text">You have been hired to build a front-end user interface for an existing 
+                        <!-- <p class="p-card-text">You have been hired to build a front-end user interface for an existing 
                             API blogging application. The client has asked for a responsive application that allows 
                             users to view dynamic blog posts. The client requires admin pages to register, login and
                             manage their blog posts. You may create your own fictional client for this project, with 
-                            a theme, backstory and branding of your choosing.</p>
+                            a theme, backstory and branding of your choosing.</p> -->
                         <div class="icons-wrapper">
                             <div class="connect-tools">
                                 <p class="icon-text">Links </p>
@@ -100,18 +102,18 @@
                 </div>
                 
                 <div class="project-card">
-                    <div class="project-image">
+                    <div class="project-image px pt">
                         <img src="images/SCM.png" alt="A man starring in to space">
                     </div>
-                    <div class="project-text">
-                        <h2 class="h3-card">Sunnfjord Science Museum</h2>
+                    <div class="project-text px pb">
+                        <h2 class="h2-card">Sunnfjord Science Museum</h2>
                         <p class="p-card-text">Design and build a modern, accessible and responsive web presence 
                             for the client using the provided image and text content.</p>
                         <p class="p-card-text">The site should appeal to youngsters without pandering; while 
                             aiming at a younger audience it should not patronize them with overtly childish 
                             themes. The core purpose of the site is to excite and entice people to visit the museum.</p>
-                        <p class="p-card-text">The client has not supplied a logo because the museum committee 
-                            cannot decide on a final design. You are free to create a placeholder logo for the client.</p>
+                        <!-- <p class="p-card-text">The client has not supplied a logo because the museum committee 
+                            cannot decide on a final design. You are free to create a placeholder logo for the client.</p> -->
                         <div class="icons-wrapper">
                             <div class="connect-tools">
                                 <p class="icon-text">Links </p>
@@ -140,18 +142,20 @@
                 </div>
                 
                 <div class="project-card">
-                    <div class="project-image">
+                    <div class="project-image px pt">
                         <img src="images/SE.png" alt="Batman">
                     </div>
-                    <div class="project-text">
-                        <h2 class="h3-card">SquareEyes</h2>
+                    <div class="project-text px pb">
+                        <h2 class="h2-card">SquareEyes</h2>
                         <p class="p-card-text">SquareEyes was my first assignment to put into practice everything 
                             I’ve learned about HTML and CSS over this course by bringing my design alive.</p>
                         <p class="p-card-text">A video streaming website where you can purchase high-quality 
+                            videos directly from the people who make them.</p>
+                        <!-- <p class="p-card-text">A video streaming website where you can purchase high-quality 
                             videos directly from the people who make them. The users of this website want to 
                             purchase videos right away, which will allow them to watch it online. The website 
                             should emphasize that you can easily discover great collections or browse through 
-                            different categories to find films.</p>
+                            different categories to find films.</p> -->
                         <div class="icons-wrapper">
                             <div class="connect-tools">
                                 <p class="icon-text">Links </p>
@@ -179,16 +183,18 @@
                         </div>
                     </div>
                 </div>
-                <a href="#backTop" class="scroll-link">Back to Top</a>
-            </div>
+                </div>
+            <a href="#backTop" class="scroll-link">Back to Top</a>
         </div>
         
-        <div class="section margin-b" id="aboutMe">
-            <div class="section-headline-image">
-                <h2 class="h1-h2"><img class="logo-icon" src="images/LogoShadow.svg" alt="hauge dev logo icon">About me</h2>
-                <img class="portrait" src="images/portrait-snow.jpg" alt="portrait of Anne smiling">
+        <div class="section" id="aboutMe">
+            <div class="px ">
+                <div class="section-headline-image pb">
+                    <h2 class="h1-h2"><img class="logo-icon" src="images/LogoShadow.svg" alt="hauge dev logo icon">About me<img class="logo-icon hide" src="images/LogoShadow.svg" alt="hauge dev logo icon"></h2>
+                    <img class="portrait" src="images/portrait-snow.jpg" alt="portrait of Anne smiling">
+                </div>
             </div>
-            <div class="section-text">
+            <div class="section-text padding">
                 <p class="p-text">I'm Anne-Cathrine Hauge, a 35-year-old frontend 
                     developer in the making from a small beautiful place called Naustdal 
                     on west coast of Norway.</p>
@@ -210,7 +216,7 @@
                 <p class="p-text">Feel free to reach out if you're up for a collaboration 
                     or just want to say hi!</p>
             </div>
-            <div class="icons-wrapper">
+            <div class="icons-wrapper px pb">
                 <div class="connect-tools">
                     <p class="icon-text">Connect </p>
                     <div class="icon-links">
@@ -277,13 +283,20 @@
     <footer>
         <p class="copyright">Copyright © 4024 Hauge Dev</p>
     </footer>
+
     <script>
         document.querySelectorAll('.scroll-link').forEach(link => {
             link.addEventListener('click', function(event) {
                 event.preventDefault();
                 const targetId = this.getAttribute('href').substring(1);
                 const targetElement = document.getElementById(targetId);
-                targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                const headerOffset = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-height'));
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
             });
         });
     </script>
