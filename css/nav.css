@@ -11,11 +11,11 @@ header {
     position: fixed;
     top: 0;
     z-index: 3;
+    backdrop-filter: blur(20px);
 }
 
 nav {
     z-index: 2;
-    /* max-width: 1920px; */
     width: 90%;
     display: flex;
     justify-content: space-between;
