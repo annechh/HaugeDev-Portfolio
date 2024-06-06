@@ -1,0 +1,24 @@
+@import url('default.css');
+
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+::-webkit-scrollbar-track {
+    background: #181818;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--purple-light);
+    border: solid #181818;
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+
+.scroll-link {
+    text-align: center;
+}

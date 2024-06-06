@@ -1,4 +1,5 @@
 li,
+.icon-links a,
 .logo-container {
     transition: 0.3s ease;
     cursor: pointer;  
@@ -6,6 +7,7 @@ li,
 
 
 li:hover,
+.icon-links a:hover,
 .logo-container:hover {
     transform: scale(1.1);
 }
