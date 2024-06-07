@@ -58,7 +58,7 @@ a {
 }
 
 .margin-b {
-    margin-bottom: 15vh;
+    margin-bottom: 20vh;
 }
 
 /* Background image */
@@ -235,23 +235,37 @@ footer {
     .remove{
         display: none;
     }
-    
-    .h1-h2{
+    .section {
+        height: 100%;
+    }
+    .margin-t{
+        margin-top: 15vh;
+    }
+    .margin-b {
+        margin-bottom: 10vh;
+    }
+    .scroll {
+        gap: 150px;
+    }
+    .h1-h2,
+    .h2-card{
         font-size: 20px;
     }
-
     .section-headline-image {
         flex-direction: column-reverse;
         align-items: center;
+    }
+    ul,
+    .section-headline-image {
         gap: 20px;
     }
     .logo-container img {
         max-height: 40px;
     }
     
-
     li,
-    .p-text {
+    .p-text,
+    .p-card-text {
         font-size: 16px;
     }
 
@@ -290,4 +304,21 @@ footer {
     :root {
         --header-height: 50px;
     }
+
+    .container::-webkit-scrollbar {
+        display: none;
+    }
 }
+
+
+@media screen and (max-width: 500px) {
+    .project-card-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    .scroll {
+        gap: 75px;
+    }
+}
+
+
