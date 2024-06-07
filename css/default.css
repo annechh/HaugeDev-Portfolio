@@ -12,6 +12,22 @@
     justify-content: center;
 }
 
+
+
+.link-btn {
+    max-height: 40px;
+    height: 100%;
+    max-width: 150px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-wrap: nowrap;
+    color: white;
+    font-size: 20px;
+}
+
+
+
 /* Padding */
 .padding {
     padding: 25px;

@@ -19,6 +19,7 @@ li,
 
 li, 
 .p-text,
+.p-card-text,
 .h2-card, 
 .copyright {
     font-family: var(--roboto);

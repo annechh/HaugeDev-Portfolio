@@ -1,6 +1,7 @@
 li,
 .icon-links a,
-.logo-container {
+.logo-container,
+.link-btn {
     transition: 0.3s ease;
     cursor: pointer;  
 }
@@ -8,6 +9,7 @@ li,
 
 li:hover,
 .icon-links a:hover,
-.logo-container:hover {
+.logo-container:hover,
+.link-btn:hover {
     transform: scale(1.1);
 }
