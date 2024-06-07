@@ -5,6 +5,7 @@
 
 * {
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -231,6 +232,9 @@ footer {
     .hide {
         display: block;
     }
+    .remove{
+        display: none;
+    }
     
     .h1-h2{
         font-size: 20px;
@@ -240,6 +244,9 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
         gap: 20px;
+    }
+    .logo-container img {
+        max-height: 40px;
     }
     
 
